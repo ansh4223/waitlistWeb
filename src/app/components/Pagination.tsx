@@ -12,7 +12,7 @@ const Pagination: React.FC<PaginationProps> = ({
   totalPages,
   setCurrentPage,
 }) => {
-  const itemsPerPage = 6;
+  const itemsPerPage = 10;
   const firstItemIndex = (currentPage - 1) * itemsPerPage + 1;
   const lastItemIndex = Math.min(currentPage * itemsPerPage, totalPages * itemsPerPage);
 
